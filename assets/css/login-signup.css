@@ -1,0 +1,88 @@
+@import url(common.css);
+
+body {  
+  flex-direction: column;
+}
+
+
+.login-signup-container {
+  margin-top: 20vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 90%;
+  max-width: 400px;
+
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-signup-container h1 {
+  font-size: 28px;
+  color: #6d5c36;
+  margin-bottom: 20px;
+}
+
+.login-signup-container p {
+  font-size: 16px;
+  color: #7a6a49;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #6d5c36;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d0c668;
+  border-radius: 5px;
+  background-color: #faf3e0;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #6d5c36;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #5a4d30;
+}
+
+.switch-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.switch-link a {
+  color: #6d5c36;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}

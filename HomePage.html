@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kindAura</title>
+
+  <link rel="stylesheet" href="/assets/css/homepage.css">
+  <script>
+
+function checkAspectRatio() {
+  let aspectRatio = window.innerWidth / window.innerHeight;
+
+  if (aspectRatio < 1) {
+    document.body.classList.add('aspect-ratio-small');
+  } else {
+    document.body.classList.remove('aspect-ratio-small');
+  }
+}
+
+window.addEventListener('load', checkAspectRatio);
+window.addEventListener('resize', checkAspectRatio);
+
+  </script>
+</head>
+
+<body>
+  <div class="content-container" style="margin-top: 280px; z-index: 1000; scale: 1.2;">
+
+
+          <div class="intro-section">
+            <h1 style="width: 200px; color: #fff; text-shadow: -3px -2px 0 #d0c668, 1px -1px 0 #d0c668, -1px 1px 0 #d0c668, 1px 1px 0 #d0c668; scale: 1.4; padding: 20px;">kindAura</h1>
+        
+            <p style="max-width: 60vw;" >Join a community dedicated to spreading gratitude, kindness, and joy</p>
+            <a href="LoginSignup.html">
+              <button class="get-started-btn">Get Started</button>
+            </a>
+          </div>
+
+          <div class="features">
+                <div class="feature-box">
+                  <h2>Gratitude Sharing</h2>
+                  <p>Share what made your day brighter</p>
+                </div>
+              <div class="feature-box">
+                <h2>Acts of Kindness</h2>
+                <p>Witness or celebrate kind deeds</p>
+              </div>
+              <div class="feature-box">
+                <h2>Positive Vibes Only</h2>
+                <p>Support each other with words of encouragement</p>
+              </div>
+          </div>
+
+          <div class="extras-section">
+
+                <div class="trending-positivity">
+                  <h3>Trending Positivity</h3>
+                  <ul>
+                    <li>#GratefulToday</li>
+                    <li>#KindnessMatters</li>
+                    <li>#JoyfulMoments</li>
+                  </ul>
+                </div>
+
+                <div class="editors-pick">
+                  <h3>Editor's Pick</h3>
+
+                      <div class="editor-item">
+                        <p><strong>@explorer_jane : </strong> Spent the day volunteering at the local shelter. It was truly an enriching experience. ❤️</p>
+                      </div>
+
+                      <div class="editor-item">
+                        <p><strong>@wenamachoindasuma : </strong> Turned an old table into a chic piece of home decor. DIY doesn’t have to be complicated, just a bit of creativity! ✨  #Upcycle</p>
+                      </div>
+
+                </div>
+          </div>
+  </div>
+
+
+
+
+  
+
+  <header>
+    <div class="header-container">
+      <div class="header-left">
+        <span class="site-name">kindAura</span>
+      </div>
+    </div>
+  </header>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-center">
+        <a href="HomePage.html">
+            <button>
+              <img src="assets/images/Home.svg" alt="home">
+            </button>
+        </a>
+        <a href="MainWeb.html">
+          <button id="trending">
+            <p style="font-family: 'Aberus', sans-serif; font-size: xx-large;">PREVIEW</p>
+          </button>
+        </a>
+      </div>
+      <div class="footer-right">
+        <button>
+          <img src="assets/images/Help circle.svg" alt="help">
+        </button>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kindAura</title>
+  <link rel="stylesheet" href="/assets/css/main-web.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.0.0/dist/umd/supabase.min.js"></script>
+  
+  <script src="assets/js/handlePosts.js" defer type="module"></script>
+  <script src="assets/js/instructions.js"></script>
+  <script src="assets/js/comments.js"></script>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+
+
+
+
+</head>
+
+<body>  
+
+    <header>
+    <div class="header-container">
+      <div class="header-left">
+        <span class="site-name">kindAura</span>
+      </div>
+      <div class="header-right">
+        <button id="create-button">
+          <img src="assets/images/Create.svg" alt="Create">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-center">
+        <a href="HomePage.html">
+            <button>
+              <img src="assets/images/Home.svg" alt="home">
+            </button>
+        </a>
+        <button id="trending">
+          <img src="assets/images/Trending_Fire.svg" alt="trending">
+        </button>
+      </div>
+      <div class="footer-right">
+        <button>
+          <img src="assets/images/Help circle.svg" alt="help">
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <div id="comment-modal" class="modal">
+    <div class="modal-content">
+      <h3>Comments</h3>
+      <div id="comment-list" class="comment-list">
+
+        
+
+
+        <!-- Comments will go here -->
+
+
+
+
+      </div>
+      <div class="comment-input">
+        <input type="text" id="new-comment" placeholder="Add a comment...">
+        <button id="submit-comment">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+  <!-- Modal for creating a new post -->
+<div id="create-post-modal" class="modal">
+  <div class="modal-content">
+    <h3>Create a New Post</h3>
+    <form id="create-post-form">
+      <div class="form-group">
+        <label for="post-username">Username</label>
+        <input type="text" id="post-username" placeholder="Enter your username" required>
+      </div>
+      <div class="form-group">
+        <label for="post-content">Content</label>
+        <textarea id="post-content" placeholder="What's on your mind?" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="post-image">Post Image URL</label>
+        <input type="url" id="post-image" placeholder="Enter image URL" required>
+      </div>
+      <button type="submit" id="submit-post">Create Post</button>
+    </form>
+  </div>
+</div>
+
+<!-- Modal HTML Structure -->
+<div id="instructions-modal" class="modal">
+  <div class="modal-content">
+      <h2>How to Use the Website</h2>
+      <p>Welcome to our website! Here's how you can view posts and upload posts:</p>
+      <ul>
+          <li>Use the arrow keys or swipe left/right to navigate through the posts.</li>
+          <li>Click on the heart icon to like a post.</li>
+          <li>Click on the create post buttons to make posts</li>
+      </ul>
+      <p>Enjoy exploring!</p>
+  </div>
+</div>
+
+</body>
+
+</html>
