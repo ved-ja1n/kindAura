@@ -38,7 +38,7 @@ kindAura is built using **HTML**, **CSS**, and **JavaScript**, with backend supp
 |-|-|
 | **`/assets/js/comments.js`** | Contains the js code required for comments functionality. |
 | **`/assets/js/handlePosts.js`** | Contains the js code required for creating and displaying posts. |
-| **`/assets/js/instructions.js`** | Contains the js code required for the notification telling users how to navigate posts. |
+| **`/assets/js/instructions.js`** | Contains the js code for instructions popup. |
 | **`/assets/js/loginSignup.js`** | Contains the js code required for login and signup functionality. |
 
 
@@ -52,8 +52,9 @@ kindAura is built using **HTML**, **CSS**, and **JavaScript**, with backend supp
 
 ### **Method 1: Access the Prebuilt Website**
 1. **Visit the Website**: Navigate to [**kindAura**](https://kind-aura.netlify.app/homepage)
-2. **Sign Up**: Click on the sign-up button to create a new account. You will need a valid email address and a password.
+2. **Sign Up**: Click on the sign-up button to create a new account. You will need an email ID.
 3. **Explore**: Once registered, explore the existing posts and feel free to engage with the community.
+4. kindAura will automatically log you back in when you revisit the website.
 ---
 
 ### **Method 2: Build Your Own Instance**
