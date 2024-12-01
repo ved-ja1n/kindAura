@@ -165,5 +165,5 @@ A big shoutout to everyone who made kindAura possible! 🎉
 |-|-|-|
 | **Vedant Jain** | Frontend & Backend Developer | Built the frontend and handled posts creation. |
 | **Saksham** | Backend Developer | Handled authentication, Supabase integration, and other JS code. |
-| **Palak** | Documentation | Crafted this `README.md` |
-| **Dark** | Designer | Created SVGs and provided design resources for this project. |
+| **Palak Bhatt** | Documentation | Crafted this `README.md` |
+| **Shiv Pandey** | Designer | Created SVGs and provided design resources for this project. |
