@@ -1,22 +1,22 @@
 # kindAura: Join the World Where Everyone is Kind and Happy
 
 
-## 🖥️ Overview
-kindAura is an online platform which aims at creating awareness of positive attitude and thankfulness. It is a platform which is based on the idea that telling people positive stories and encouraging them to be kind can make a positive change in the society. This is a place where people gather to enjoy the positive aspects of life, share kindness and join a positive environment. kindAura’s mission is clear: to culture inspire where people gratitude to leads appreciate to the meaningful beauty action. in everyday life.
+## Overview
+kindAura is an online platform which aims at creating awareness of positive attitude and thankfulness. It is a platform which is based on the idea that telling people positive stories and encouraging them to be kind can make a positive change in the society. This is a place where people gather to enjoy the positive aspects of life, share kindness and join a positive environment. kindAura's mission is clear: to culture inspire where people gratitude to leads appreciate to the meaningful beauty action. in everyday life.
 
-# 🚀 **Features**
-### 🌟 **Gratitude Sharing**
+# **Features**
+### **Gratitude Sharing**
 - Write about some good things you that in have your happened day. to
 
-### 🤝 **Acts of Kindness**
+### **Acts of Kindness**
 - Share and share deserve of good deeds you have done or you have seen being done.
 
-### 💬 **Positive Vibes Only**
+### **Positive Vibes Only**
 - Be part of a positive environment that is full of motivation and positive affirmations.
 
-### 📝 **Editor's Picks**
-- Explore unique and interesting content selection of the community’s best contributions. ---
-## 🖥️ **Project Overview**
+### **Editor's Picks**
+- Explore unique and interesting content selection of the community's best contributions. ---
+## **Project Overview**
 
 kindAura is built using **HTML**, **CSS**, and **JavaScript**, with backend support provided by **Supabase** for data storage and authentication and **Netlify** for hosting. The codebase is structured for simplicity and ease of use:
 
@@ -44,9 +44,9 @@ kindAura is built using **HTML**, **CSS**, and **JavaScript**, with backend supp
 
 ---
 
-## 📋 **How to Use**
+## **How to Use**
 
-### 🖥️ Dependencies
+### Dependencies
 - Web Browser (latest version of Chrome, Firefox, or Safari)
 - Internet Connection
 
@@ -140,14 +140,14 @@ CREATE POLICY "Users can update own profile"
 ```
 
 ---
-## 🌐 **Deploying the Project**
+## **Deploying the Project**
 After setting up Supabase:
 - Deploy the front-end code using any web hosting platform (e.g., Netlify, Vercel).
 - Ensure your Supabase API keys and database settings are configured correctly for live deployment.
 
 ---
 
-## 🚫 **Privacy Concerns**
+## **Privacy Concerns**
 
 - This project uses Supabase, which gives administrators full access to all data stored in the database. This includes:
   - The ability to view all registered email addresses of users.
@@ -155,13 +155,13 @@ After setting up Supabase:
 - We are not liable for any posts created in the website due to inactive moderation of posts.
 
 ---
-## 📄 **License**
+## **License**
 - kindAura is licensed under the [**MIT License**](https://opensource.org/license/MIT). Feel free to use and modify this project, but please give credit.
 
 ---
-## 🤝 **Contributors**
+## **Contributors**
 
-A big shoutout to everyone who made kindAura possible! 🎉
+A big shoutout to everyone who made kindAura possible!
 
 | Contributor | Role | Contribution Highlights |
 |-|-|-|
