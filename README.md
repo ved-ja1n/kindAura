@@ -1,6 +1,5 @@
 # kindAura: Join the World Where Everyone is Kind and Happy
 
-
 ## Overview
 kindAura is an online platform which aims at creating awareness of positive attitude and thankfulness. It is a platform which is based on the idea that telling people positive stories and encouraging them to be kind can make a positive change in the society. This is a place where people gather to enjoy the positive aspects of life, share kindness and join a positive environment. kindAura's mission is clear: to culture inspire where people gratitude to leads appreciate to the meaningful beauty action. in everyday life.
 
@@ -51,7 +50,7 @@ kindAura is built using **HTML**, **CSS**, and **JavaScript**, with backend supp
 - Internet Connection
 
 ### **Method 1: Access the Prebuilt Website**
-1. **Visit the Website**: Navigate to [**kindAura**](https://kind-aura.netlify.app/homepage)
+1. **Visit the Website**: Navigate to [**kindAura**](https://kind-aura.netlify.app/homepage) **(deprecated)**
 2. **Sign Up**: Click on the sign-up button to create a new account. You will need an email ID.
 3. **Explore**: Once registered, explore the existing posts and feel free to engage with the community.
 4. kindAura will automatically log you back in when you revisit the website.
